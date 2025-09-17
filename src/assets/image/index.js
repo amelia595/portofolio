@@ -17,7 +17,16 @@ export {default as g13} from '@/assets/image/gambar13.png'
 export {default as g14} from '@/assets/image/gambarfun14.png'
 export {default as g15} from '@/assets/image/gambarui15.png'
 export {default as g16} from '@/assets/image/gambarlom16.png'
+
 export {default as g17} from '@/assets/image/gambarking17.jpg'
 export {default as g18} from '@/assets/image/gambarlis18.jpg'
 export {default as g19} from '@/assets/image/gambarkore19.jpg'
 export {default as g20} from '@/assets/image/gambarkunj20.jpg'
+
+export {default as g21} from '@/assets/image/gambar21.jpeg'
+export {default as g22} from '@/assets/image/gambar22.png'
+export {default as g23} from '@/assets/image/gambar23.png'
+
+export {default as g24} from '@/assets/image/gambar24.jpg'
+export {default as g25} from '@/assets/image/gambar25.jpg'
+export {default as g26} from '@/assets/image/gambar26.jpg'

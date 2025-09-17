@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { instagram, facebook, whatsapp, linkedin } from './icons';
+import { instagram, github, whatsapp, linkedin } from './icons';
 
 export default {
   name: 'ConnectSection',
@@ -34,10 +34,10 @@ export default {
           url: 'https://www.instagram.com/melliaptrri'
         },
         {
-          name: 'Facebook',
-          desc: 'Social media profile',
-          icon: facebook,
-          url: 'https://www.facebook.com/Amelia Putri Saparani'
+          name: 'Github',
+          desc: 'Network profile',
+          icon: github,
+          url: 'https://github.com/amelia595'
         },
         {
           name: 'Whatsapp',
@@ -88,7 +88,7 @@ export default {
 }
 
 .card{
-    background-color: #d9d9d9;
+    background-color: #D9A299;
     padding: 15px 20px;
     border-radius: 8px;
     display: flex;
@@ -127,6 +127,7 @@ export default {
 @media (max-width: 768px) {
   .connect-section {
     padding: 40px 20px;
+    background-color:#D9A299;
   }
 
   .connect-section h2 {
@@ -136,6 +137,7 @@ export default {
   .socials {
     grid-template-columns: repeat(1, 1fr); /* jadi 1 kolom di HP */
     gap: 16px;
+    background-color:#D9A299;
   }
 
   .card {
@@ -143,11 +145,13 @@ export default {
     max-width: 300px;
     flex-direction: row;
     justify-content: space-between;
+    
   }
 
   .card img {
     width: 28px;
     height: 28px;
+    
   }
 
   .card .left strong {

@@ -18,7 +18,7 @@
 </template>
 
 <script>
-    import {g11, g12, g13} from '@/assets/image'
+    import {g11, g12, g13, g21, g22, g23} from '@/assets/image'
 
     export default {
         name: 'ProjectList',
@@ -27,18 +27,33 @@
                 projects: [
                     {
                         tittle: 'Vue E-Commerce Practice',
-                        type: 'Web Application',
+                        type: 'Website',
                         image: g12
                     },
                     {
                         tittle: 'Website Cek Khodam',
-                        type: 'Web / Static',
+                        type: 'Website',
                         image: g13
                     },
                     {
                        tittle: 'UI Desain Aplikasi',
-                        type: 'UI/UX Design',
+                        type: 'UI Design',
                         image: g11
+                    },
+                    {
+                       tittle: 'Neuron Library',
+                        type: 'Web Perpustakaan',
+                        image: g21
+                    },
+                    {
+                       tittle: 'Pomodoro Timer',
+                        type: 'Website',
+                        image: g22
+                    },
+                    {
+                       tittle: 'UI E-commerce',
+                        type: 'Website',
+                        image: g23
                     }
                 ]
             }

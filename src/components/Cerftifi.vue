@@ -66,7 +66,7 @@ export default {
 
 .description{
     font-size: 14px;
-    color: #918E8E;
+    color: black;
     margin-bottom: 40px;
 }
 

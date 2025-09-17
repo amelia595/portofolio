@@ -7,11 +7,11 @@ import Testimonial from '@/components/Testimonial.vue';
 import Contact from '@/components/Contact.vue';
 import Connect from '@/components/Connect.vue';
 import {
-  g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g20
+  g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g20, g21, g22, g23, g24, g25, g26
 } 
   from '@/assets/image'
 
-import { instagram, facebook, linkedin, whatsapp } from '@/components/icons';
+import { instagram, github, linkedin, whatsapp } from '@/components/icons';
 </script>
 
 <template>
@@ -20,7 +20,7 @@ import { instagram, facebook, linkedin, whatsapp } from '@/components/icons';
     <div class="hero-text">
       <h2>
   <span class="highlight1">Learning</span>&nbsp;
-  <strong style="font-weight: bold;">Frontend Development</strong>&nbsp;<br/> 
+  <strong style="font-weight: bold;">Frontend Developer</strong>&nbsp;<br/> 
   <strong style="font-weight: bold;">with a</strong>&nbsp;
   <span class="highlight2">Passion for</span>&nbsp;
   <strong style="font-weight: bold;">UI/UX Design</strong>&nbsp;
@@ -41,9 +41,9 @@ import { instagram, facebook, linkedin, whatsapp } from '@/components/icons';
   <div class="projects-row">
     <h3>My <span class="recent">recent projects</span></h3>
     <div class="stats">
-      <div class="ya3" style="color: #918E8E;"><strong class="ya2" style="color: black; font-weight: bold;">1+</strong><br />Frontend Layouts Built</div>
+      <div class="ya3" style="color: black;"><strong class="ya2" style="color: black; font-weight: bold;">5+</strong><br />Frontend Layouts Built</div>
       <div class="ya3"><strong class="ya2">3+</strong><br />Personal Projects</div>
-      <div class="ya3"><strong class="ya2">5+</strong><br />UI/UX Concepts Designed</div>
+      <div class="ya3"><strong class="ya2">4+</strong><br />UI/UX Concepts Designed</div>
     </div>
   </div>
 </section>
@@ -53,7 +53,7 @@ import { instagram, facebook, linkedin, whatsapp } from '@/components/icons';
 <style scoped>
 
 .ya3{
-  color:#918E8E
+  color: black;
 }
 .ya2{
   color: black;
@@ -106,7 +106,7 @@ import { instagram, facebook, linkedin, whatsapp } from '@/components/icons';
   margin: 20px 0;
   max-width: 400px;
   margin-bottom: 20px;
-  color: #918E8E;
+  color: black;
 }
 
 .hire-btn {

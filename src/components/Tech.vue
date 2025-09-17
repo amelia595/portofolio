@@ -5,10 +5,11 @@
 <template>
     <section class="skills-section">
      <div class="skills-text">
-        <h3>Skills <span class="highlight-tech">&amp; Tech</span>
+        <h3>Skills <span class="highlight-tech" style="margin-top:20px">&amp; Tech</span>
         Stack</h3>
-        <p>Berikut adalah tools dan teknologi yang saya gunakan saat belajar dan membuat projek</p>
-        <button class="more-btn">More</button>
+        <p>Berikut adalah tools dan teknologi yang saya gunakan
+        saat belajar dan membuat projek</p>
+       
      </div>
      
      <div class="tech-grid">
@@ -21,6 +22,9 @@
         <img src="@/assets/image/gambarjs8.jpg"/>
         <img src="@/assets/image/gambarphp9.jpg"/>
         <img src="@/assets/image/gambarfig10.jpg"/>
+        <img src="@/assets/image/gambar24.jpg"/>
+        <img src="@/assets/image/gambar25.jpg"/>
+        <img src="@/assets/image/gambar26.jpg"/>
      </div>
     </section>
 </template>
@@ -37,16 +41,16 @@
 
 .skills-text{
     max-width: 400px;
+    padding-top: 20px;
 }
 
 .skills-text h3{
     font-size: 22px;
-    margin-bottom: 15px;
     font-weight: bold;
     color: black;
     word-spacing: 5px;
-    margin-top: 60px;
-    margin-left: 150px;
+    padding-top: 90px;
+    margin-left: 50px;
 }
 
 .highlight-tech{
@@ -55,24 +59,20 @@
 }
 
 .skills-text p{
-    color: #918E8E;
+    color: black;
     margin-bottom: 20px;
-    margin-left: 150px;
+    margin-left: 250px;
+    margin: 20px -0;
+    max-width: 400px;
+    padding-left: 50px;
+    padding-top: -5px;
 }
 
-.more-btn{
-    background-color: #DCC5B2;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: poppins;
-    margin-left: 150px;
-}
+
 
 .tech-grid{
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(4, 100px);
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -123,7 +123,7 @@
   }
 
   .tech-grid {
-    grid-template-columns: repeat(3, 1fr); /* GANTI JADI 2 KOLOM */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     margin: 40px 0 0 0;
   }

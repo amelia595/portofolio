@@ -109,7 +109,7 @@ export default {
 }
 
 .contact-text p{
-    color: #918E8E;
+    color: black;
     margin-bottom: 15px;
     margin-right: 80px;
     word-spacing: 1px;

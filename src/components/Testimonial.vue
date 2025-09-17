@@ -67,7 +67,7 @@ export default {
 
 .desc{
     font-size: 14px;
-    color: grey;
+    color: black;
     margin-bottom: 40px;
     line-height: 1.7;
     margin-right: 549px;
@@ -80,6 +80,7 @@ export default {
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
+    color:black;
 }
 
 .card{
@@ -119,7 +120,7 @@ export default {
 
 .info .role{
     font-size: 10px;
-    color: #666;
+    color: black;
 }
 
 @media (max-width: 768px) {

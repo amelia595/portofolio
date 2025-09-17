@@ -18,8 +18,7 @@
 
     <div class="things-right">
         <h3>Things I <span class="can-do">Can</span> Do</h3>
-        <p>Beberapa hal yang bisa saya kerjakan mulai dari desain UI/UX hingga membuat tampilan web yang interaktif</p>
-        <button class="more-btn">More</button>
+        <p style="color:black;">Beberapa hal yang bisa saya kerjakan mulai dari desain UI/UX hingga membuat tampilan web yang interaktif</p>
     </div>
 </section>
 </template>
@@ -49,6 +48,9 @@ export default {
 </script>
 
 <style scoped>
+.ThingsIDo{
+    color:black;
+}
 .things-section {
     display: flex;
     justify-content: space-between;
@@ -92,6 +94,7 @@ export default {
     border-top: 1px solid #918E8E;
     margin: 8px 0;
     width: 98%;
+    color:black;
 }
 
 .content ul{
@@ -101,6 +104,7 @@ export default {
     flex-wrap: wrap;
     gap: 10px 20px;
     font-size: 13px;
+    color:black;
 }
 
 .arrow{
@@ -139,19 +143,11 @@ export default {
 
 .things-right p{
     font-size: 14px;
-    color: #918E8E;
+    color: black;
     margin-bottom: 20px;
     margin-right: 60px;
 }
 
-.more-btn{
-    background-color: #DCC5B2;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-family: poppins;
-}
 
 
 </style>
